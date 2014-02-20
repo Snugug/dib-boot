@@ -1,0 +1,23 @@
+{
+  "name": "dib-boot",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Snugug/dib-boot",
+  "authors": [
+    "Sam Richard <snugug@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "north": "~0.2.0"
+  },
+  "dependencies": {
+    "eq.js": "~1.4.1",
+    "borealis": "~1.0.1"
+  }
+}
