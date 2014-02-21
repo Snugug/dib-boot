@@ -6,47 +6,57 @@
 
     var options = {
       port: 9088,
+      lrport: 9099,
+      html: compassSettings.http_path,
       css: compassSettings.css_dir,
       sass: compassSettings.sass_dir,
       img: compassSettings.images_dir,
-      js: compassSettings.javascripts_dir
+      js: compassSettings.javascripts_dir,
+      fonts: compassSettings.fonts_dir
     };
+    // Remove quotes from options
+    for (var k in options) {
+      if (typeof(options[k]) === 'string') {
+        options[k] = options[k].replace(/"/g, '');
+        options[k] = options[k].replace(/'/g, '');
+      }
+    }
 
     grunt.initConfig({
       connect: {
         server: {
           options: {
-            port: 9088,
-            base: './',
-            livereload: 9099
+            port: options.port,
+            base: options.html,
+            livereload: options.lrport
           }
         }
       },
 
       open: {
         dev: {
-          path: 'http://localhost:9088'
+          path: 'http://localhost:' + options.port
         }
       },
 
       watch: {
         options: {
-          livereload: 9099
+          livereload: options.lrport
         },
         html: {
-          files: ['./{,**/}*.html']
+          files: [options.html + '{,**/}*.html']
         },
         css: {
-          files: ['./css/{,**/}*.css']
+          files: [options.html + options.css + '/{,**/}*.css']
         },
         js: {
           files: [
-            './js/{,**/}*.js',
-            '!./js/{,**/}*.min.js'
+            options.html + options.js + '/{,**/}*.js',
+            '!' + options.html + options.js + '/{,**/}*.min.js'
           ]
         },
         img: {
-          files: ['./images/{,**/}*.*']
+          files: [options.html + options.img + '/{,**/}*.*']
         }
       },
 
@@ -54,7 +64,8 @@
         options: {
           relativeAssets: true,
           bundleExec: true,
-          config: 'config.rb'
+          config: 'config.rb',
+          watch: true
         },
         dev: {
           watch: true
@@ -65,7 +76,10 @@
         option: {
           jshintrc: '.jshintrc'
         },
-        all: ['./js/{,**/}*.js', '!./js/{,**/}*.min.js']
+        all: [
+          options.html + options.js + '/{,**/}*.js',
+          '!' + options.html + options.js + '/{,**/}*.min.js'
+        ]
       },
 
       parallel: {
@@ -74,11 +88,12 @@
             grunt: true,
             stream: true
           },
-          tasks: ['watch', 'compass:dev']
+          tasks: ['watch', 'compass']
         }
       }
     });
 
+    // Match Grunt dependencies
     require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
     //////////////////////////////
