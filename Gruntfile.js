@@ -53,7 +53,8 @@
           files: [
             options.html + options.js + '/{,**/}*.js',
             '!' + options.html + options.js + '/{,**/}*.min.js'
-          ]
+          ],
+          tasks: ['jshint']
         },
         img: {
           files: [options.html + options.img + '/{,**/}*.*']
@@ -73,7 +74,7 @@
       },
 
       jshint: {
-        option: {
+        options: {
           jshintrc: '.jshintrc'
         },
         all: [
