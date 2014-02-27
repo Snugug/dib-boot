@@ -11,7 +11,8 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "vendor"
   ],
   "devDependencies": {
     "north": "~0.2.0"
