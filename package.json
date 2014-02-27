@@ -23,6 +23,7 @@
     "matchdep": "~0.3.0",
     "grunt-parallel": "~0.3.1",
     "iniparser": "~1.0.5",
-    "grunt-open": "~0.2.3"
+    "grunt-open": "~0.2.3",
+    "grunt-contrib-jshint": "~0.8.0"
   }
 }
