@@ -1,6 +1,10 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    breakpoint (2.4.1)
+      compass (~> 1.0.0.alpha.13)
+      sass (~> 3.3.0.rc.2)
+      sassy-maps (< 1.0.0)
     chunky_png (1.3.0)
     compass (1.0.0.alpha.18)
       chunky_png (~> 1.2)
@@ -26,9 +30,22 @@ GEM
     rb-kqueue (0.2.2)
       ffi (>= 0.5.0)
     sass (3.3.0.rc.4)
+    sassy-maps (0.3.1)
+      compass (~> 1.0.0.alpha.13)
+      sass (~> 3.3.0.rc.2)
+    singularitygs (1.2.0.rc.6)
+      breakpoint (~> 2.4)
+      compass (~> 1.0.0.alpha.13)
+      sass (~> 3.3.0.rc.2)
+    toolkit (2.0.0.alpha.10)
+      compass (~> 1.0.0.alpha.17)
+      sass (~> 3.3.0.rc.3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  breakpoint (~> 2.4.0)
   compass (~> 1.0.0.alpha.17)
+  singularitygs (~> 1.2.0.rc.6)
+  toolkit (~> 2.0.0.alpha.7)
