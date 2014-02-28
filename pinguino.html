@@ -5,21 +5,35 @@
   <title>Pinguino's Super Awesome Page</title>
   <meta name="viewport" content="initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <style>
+  @-webkit-keyframes blinker {  
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+}
+.css3-blink {
+  -webkit-animation-name: blinker;  
+  -webkit-animation-iteration-count: infinite;  
+  -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+  -webkit-animation-duration: 1s; 
+}			
+</style>
 </head>
 <body bgcolor="#000" text="#fff">
 	<header align="center">
-	<marquee style="color: #3cff00"><h1>Pinguino's Super <font style="text-decoration:line-through">Awesome</font> 1997 Page<font></h1></marquee>
+	<marquee style="color: #3cff00"><h1 style="font-family:verdana;">Pinguino's Super <font style="text-decoration:line-through">Awesome</font> 1997 Page<font></h1></marquee></font>
 	</header>
 	<main align="center">
 		<p><img src="http://farm8.staticflickr.com/7030/6800253593_a68a0b2f7a.jpg" border="0"></p>
 
-		<h3>Pinguino is a caffeinated raver penguin.</h3>
-		<p>Her favorite energy drink is Rockstar Recovery.<BR>
-		She likes martial arts, bitcoin, sushi, and cats.<BR>
-		She sometimes takes pictures of celebrities.<BR>
-		She throws parties around the world and her favorite color is glitter.</p>
-		
+		<h3 style="font-family:verdana;"><span class="blink">Pinguino</span> is a caffeinated raver penguin.</h3>
+		<p style="font-family:verdana;">Her favorite energy drink is Rockstar Recovery.<BR>
+		She likes martial arts, dogecoin, sushi, and cats.<BR>
+		She takes pictures of celebrities, geeks, and animals.<BR>
+		She throws parties around the world.<BR>
+		Her favorite color is glitter.</p>
 	</main>
-
+<audio controls autoplay loop>
+  <source src="http://spelunk.in/stuff/Darude-Sandstorm.mp3" type="audio/mpeg">
+</audio>
 </body>
 </html>
