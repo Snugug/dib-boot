@@ -1,0 +1,11 @@
+/* line 1, ../vendor/ruby/1.8/gems/toolkit-2.0.0.alpha.10/stylesheets/toolkit/_kickstart.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 11, ../vendor/ruby/1.8/gems/toolkit-2.0.0.alpha.10/stylesheets/toolkit/_kickstart.scss */
+img, video {
+  max-width: 100%;
+  height: auto;
+}
