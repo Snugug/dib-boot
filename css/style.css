@@ -1,0 +1,14 @@
+ body {
+      width:60%;
+      margin: auto;
+      text-align: left;
+      background:#fff;
+      font-family: Arial, Helvetica, "sans-serif";
+  }
+ h1{
+  	font-color:#33ccff;
+  }
+p{
+	font-color:#999;
+	font-size:90%;
+}
