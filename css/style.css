@@ -1,46 +1,11 @@
-/* @group Blink */
-
-.blink {
-    -webkit-animation: blink .75s linear infinite;
-    -moz-animation: blink .75s linear infinite;
-    -ms-animation: blink .75s linear infinite;
-    -o-animation: blink .75s linear infinite;
-    animation: blink .75s linear infinite;
+/* line 1, ../vendor/ruby/2.0.0/gems/toolkit-2.0.0.alpha.10/stylesheets/toolkit/_kickstart.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-@-webkit-keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 1; }
-    50.01% { opacity: 0; }
-    100% { opacity: 0; }
+/* line 11, ../vendor/ruby/2.0.0/gems/toolkit-2.0.0.alpha.10/stylesheets/toolkit/_kickstart.scss */
+img, video {
+  max-width: 100%;
+  height: auto;
 }
-
-@-moz-keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 1; }
-    50.01% { opacity: 0; }
-    100% { opacity: 0; }
-}
-
-@-ms-keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 1; }
-    50.01% { opacity: 0; }
-    100% { opacity: 0; }
-}
-
-@-o-keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 1; }
-    50.01% { opacity: 0; }
-    100% { opacity: 0; }
-}
-
-@keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 1; }
-    50.01% { opacity: 0; }
-    100% { opacity: 0; }
-}
-
-/* @end */
