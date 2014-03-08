@@ -16,7 +16,7 @@ body {
 
 /* line 44, ../sass/kimmie.scss */
 figure {
-  float: right;
+  float: left;
   width: 30%;
   border: thin silver solid;
   margin: .5em;
@@ -25,16 +25,28 @@ figure {
 }
 
 /* line 52, ../sass/kimmie.scss */
+figcaption {
+  font-size: 80%;
+  padding: 5px 0;
+}
+
+/* line 56, ../sass/kimmie.scss */
 figure img {
   width: 100%;
 }
 
-/* line 58, ../sass/kimmie.scss */
+/* line 59, ../sass/kimmie.scss */
 article {
   padding-bottom: 40px;
 }
 
-/* line 63, ../sass/kimmie.scss */
+/* line 62, ../sass/kimmie.scss */
+footer {
+  text-align: center;
+  margin: 20px;
+}
+
+/* line 68, ../sass/kimmie.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Josefin Slab", "Georgia", serif;
   font-weight: 700;
@@ -42,33 +54,33 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 
-/* line 69, ../sass/kimmie.scss */
+/* line 74, ../sass/kimmie.scss */
 h1#logo {
   font-weight: 700;
   padding: 20px 0 10px 0;
   font-size: 3em;
 }
 
-/* line 74, ../sass/kimmie.scss */
+/* line 79, ../sass/kimmie.scss */
 main h2 {
   color: #f15616;
 }
 
-/* line 77, ../sass/kimmie.scss */
+/* line 82, ../sass/kimmie.scss */
 h2.subtitle {
   color: #666666;
   font-weight: 100;
   padding-bottom: 15px;
 }
 
-/* line 82, ../sass/kimmie.scss */
+/* line 87, ../sass/kimmie.scss */
 p {
   padding-bottom: 10px;
   line-height: 1.5;
   letter-spacing: 1px;
 }
 
-/* line 87, ../sass/kimmie.scss */
+/* line 92, ../sass/kimmie.scss */
 blockquote {
   font-size: 2em;
   padding: 0 0 20px 0;
@@ -76,7 +88,7 @@ blockquote {
   font-style: italic;
 }
 
-/* line 94, ../sass/kimmie.scss */
+/* line 99, ../sass/kimmie.scss */
 #avatar {
   width: 200px;
   height: auto;
@@ -84,7 +96,7 @@ blockquote {
   margin: 0 20px 20px 0;
 }
 
-/* line 100, ../sass/kimmie.scss */
+/* line 105, ../sass/kimmie.scss */
 img.scaled {
   width: 100%;
   margin-left: auto;
