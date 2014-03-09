@@ -1,0 +1,35 @@
+// Weight 0, 0, 1
+body {
+
+}
+
+// Weight 0, 1, 0
+.class {
+
+
+}
+
+// Weight 0, 1, 1
+a.class {
+
+}
+
+// Weight 0, 100, 100
+#headshot {
+
+
+}
+
+// Weight 0, 1, 0
+[href*="twitter.com"] {
+
+
+}
+
+// Weight 1, 0, 0, 0, 0
+a {
+  color: red !important;
+}
+
+// Weight 0, 1, 0, 0, 0
+
