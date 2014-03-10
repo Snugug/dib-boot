@@ -1,0 +1,70 @@
+/* line 1, ../sass/yi.scss */
+body {
+  background: #32425c;
+  color: #fff;
+  font-family: Arial;
+  text-decoration: none;
+  margin-bottom: 100px;
+}
+
+/* line 10, ../sass/yi.scss */
+h1 {
+  color: #ce616e;
+  margin-top: 1.5em;
+}
+
+/* line 16, ../sass/yi.scss */
+h2 {
+  color: #ce616e;
+}
+
+/* line 20, ../sass/yi.scss */
+p .link {
+  font-size: 19px;
+  color: #6483b6;
+  text-decoration: none;
+}
+
+/* line 26, ../sass/yi.scss */
+figure {
+  margin-bottom: 60px;
+}
+
+/* line 30, ../sass/yi.scss */
+img {
+  width: 50%;
+}
+
+/* line 34, ../sass/yi.scss */
+#moulin {
+  border: 10px solid #708090;
+}
+
+/* line 38, ../sass/yi.scss */
+nav {
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
+
+/* line 44, ../sass/yi.scss */
+ul {
+  list-style-type: none;
+}
+
+/* line 48, ../sass/yi.scss */
+li {
+  display: block;
+  padding-bottom: 1em;
+}
+
+/* line 53, ../sass/yi.scss */
+nav a {
+  color: #6483b6;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* line 60, ../sass/yi.scss */
+a:hover {
+  color: #fff;
+}
