@@ -1,0 +1,58 @@
+body {
+  background: url("/Users/Brian/Development/dib-boot/images/floor-bg.jpg") repeat;
+  color: #444;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  margin-bottom: -30px;
+}
+
+h1 {
+  font-size: 4em;
+  color: #222;
+  letter-spacing: -.06em;
+}
+
+main {
+  background-color: #fff;
+  width: 90%;
+  border-radius: 5px;
+  padding: 14px;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 130%;
+}
+
+ul {
+  list-style: square;
+  line-height: 110%;
+}
+
+ol {
+  list-style: lower-roman;
+  line-height: 110%;
+}
+
+li {
+  font-size: 1em;
+}
+
+aside {
+  background-color:rgba(0,123,252,0.15);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  color: #222;
+  letter-spacing: -.06em;
+}
+
+.blue {
+  color: #0066FF;
+
+}
