@@ -1,0 +1,111 @@
+//Colors
+$primarycolor: #65dbce;
+$secondarycolor: #f15616;
+$tertiarycolor:#fdfbf1;
+$bodycolor:#666;
+
+// Font weights
+$light: 100;
+$regular: 400;
+$bold: 700;
+
+// Base Font
+$base-font-family: 'Raleway','Helvetica',sans-serif;
+$base-font-weight: $regular;
+$base-font-space: 1px;
+$base-font-size: 13px;
+$base-line-height: 1.5;
+
+// Headings
+$header-font-weight: $bold;
+$header-font-family:'Josefin Slab','Georgia',serif;
+$header-padding: 20px 0 10px 0;
+$header-line-height: 0;
+
+// Fancy Font
+$fancy-font-family: $header-font-family;
+$fancy-font-style: italic;
+$fancy-font-size: 110%;
+$fancy-line-height: $base-line-height;
+
+//structure
+body{
+  background-color: $tertiarycolor;
+  color: $bodycolor;
+  font: $base-font-size $base-font-family;
+  width:80%;
+  margin:auto;
+}
+#container{
+  background:white;
+  padding:40px;
+  box-shadow: 1px 1px 5px #ccc;
+}
+figure{
+  float: left;
+  width: 30%;
+  border: thin silver solid;
+  margin: .5em;
+  padding: 0.5em;
+  background: #f1f1f1;
+}
+figcaption{
+  font-size:80%;
+  padding:5px 0;
+}
+figure img{
+  width:100%;
+}
+article{
+  padding-bottom:40px;
+}
+footer{
+  text-align:center;
+  margin:20px;
+}
+
+//text
+h1,h2,h3,h4,h5,h6{
+  font-family: $header-font-family;
+  font-weight: $header-font-weight;
+  color:$primarycolor;
+  line-height:$header-line-height;
+}
+h1#logo{
+  font-weight: $bold;
+  padding:20px 0 10px 0;
+  font-size:3em;
+}
+main h2{
+  color:$secondarycolor;
+}
+h2.subtitle{
+  color:$bodycolor;
+  font-weight:$light;
+  padding-bottom:15px;
+}
+p{
+  padding-bottom:10px;
+  line-height:$base-line-height;
+  letter-spacing: $base-font-space;
+}
+blockquote{
+  font-size:2em;
+  padding:0 0 20px 0;
+  font-family:$fancy-font-family;
+  font-style:$fancy-font-style;
+}
+//images
+#avatar {
+  width:200px;
+  height:auto;
+  float: left;
+  margin:0 20px 20px 0;
+}
+img.scaled{
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}
+//links
