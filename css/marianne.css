@@ -1,0 +1,88 @@
+/* line 1, ../sass/marianne.scss */
+body {
+  font-family: 'Nobile', sans-serif;
+  color: black;
+  font-size: .85em;
+  line-height: 1.6em;
+  padding: 10%;
+}
+
+/* line 9, ../sass/marianne.scss */
+aside {
+  background-color: PapayaWhip;
+  padding: 2% 5% 2% 5%;
+}
+
+/* line 14, ../sass/marianne.scss */
+aside h1 {
+  font-size: 1.75em;
+  color: orchid;
+  font-family: 'Codystar', cursive;
+}
+
+/* line 20, ../sass/marianne.scss */
+figure {
+  float: left;
+  padding: 4%;
+  margin: 0% 4% 4% 0%;
+  width: 50%;
+  background-color: orchid;
+  color: mintcream;
+}
+
+/* line 29, ../sass/marianne.scss */
+figure a {
+  color: moccasin;
+}
+
+/* line 31, ../sass/marianne.scss */
+figure a:hover {
+  color: lightcyan;
+}
+
+/* line 33, ../sass/marianne.scss */
+figure img {
+  width: 100%;
+}
+
+/* line 35, ../sass/marianne.scss */
+blockquote {
+  font-size: 2.15em;
+  line-height: 1em;
+  font-family: 'Poiret One', cursive;
+  color: darkorange;
+}
+
+/* line 42, ../sass/marianne.scss */
+a {
+  color: darkorange;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* line 48, ../sass/marianne.scss */
+a:hover {
+  color: orchid;
+}
+
+/* line 50, ../sass/marianne.scss */
+h1 {
+  color: darkturquoise;
+  font-size: 5em;
+  font-family: 'Lilita One', cursive;
+}
+
+/* line 56, ../sass/marianne.scss */
+h2 {
+  font-size: 2.75em;
+  line-height: 1em;
+  font-family: 'Codystar', cursive;
+  color: darkorange;
+}
+
+/* line 63, ../sass/marianne.scss */
+.intro {
+  font-size: 1.5em;
+  line-height: 1.75em;
+  color: gray;
+}

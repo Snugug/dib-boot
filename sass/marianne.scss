@@ -1,0 +1,67 @@
+body {
+  font-family: 'Nobile', sans-serif;
+  color: black;
+  font-size: .85em;
+  line-height: 1.6em;
+  padding: 10%;
+}
+
+aside {
+  background-color: PapayaWhip;
+  padding: 2% 5% 2% 5%;
+}
+
+aside h1 {
+  font-size: 1.75em;
+  color: orchid;
+  font-family: 'Codystar', cursive;
+}
+
+figure {
+  float: left;
+  padding: 4%;
+  margin: 0% 4% 4% 0%;
+  width: 50%;
+  background-color: orchid;
+  color: mintcream;
+}
+
+figure a {color:moccasin;}
+
+figure a:hover {color:lightcyan;}
+
+figure img {width:100%;}
+
+blockquote {
+  font-size: 2.15em;
+  line-height: 1em;
+  font-family: 'Poiret One', cursive;
+  color: darkorange;
+}
+
+a {
+  color: darkorange;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {color: orchid;}
+
+h1 {
+  color: darkturquoise;
+  font-size: 5em;
+  font-family: 'Lilita One', cursive;
+}
+
+h2 {
+  font-size: 2.75em;
+  line-height: 1em;
+  font-family: 'Codystar', cursive;
+  color: darkorange;
+}
+
+.intro {
+  font-size: 1.5em;
+  line-height: 1.75em;
+  color: gray;
+}

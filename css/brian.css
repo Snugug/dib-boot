@@ -1,0 +1,68 @@
+/* line 1, ../sass/brian.scss */
+body {
+  background: url("../images/floor-bg.jpg") repeat;
+  color: #444;
+  font-family: Arial, sans-serif;
+}
+
+/* line 7, ../sass/brian.scss */
+header {
+  margin-bottom: -30px;
+}
+
+/* line 11, ../sass/brian.scss */
+h1 {
+  font-size: 4em;
+  color: #222;
+  letter-spacing: -.06em;
+}
+
+/* line 17, ../sass/brian.scss */
+main {
+  background-color: #fff;
+  width: 90%;
+  border-radius: 5px;
+  padding: 14px;
+}
+
+/* line 24, ../sass/brian.scss */
+p {
+  font-size: 1.2em;
+  line-height: 130%;
+}
+
+/* line 29, ../sass/brian.scss */
+ul {
+  list-style: square;
+  line-height: 110%;
+}
+
+/* line 34, ../sass/brian.scss */
+ol {
+  list-style: lower-roman;
+  line-height: 110%;
+}
+
+/* line 39, ../sass/brian.scss */
+li {
+  font-size: 1em;
+}
+
+/* line 43, ../sass/brian.scss */
+aside {
+  background-color: rgba(0, 123, 252, 0.15);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/* line 49, ../sass/brian.scss */
+h2 {
+  font-size: 2em;
+  color: #222;
+  letter-spacing: -.06em;
+}
+
+/* line 55, ../sass/brian.scss */
+.blue {
+  color: #0066FF;
+}
