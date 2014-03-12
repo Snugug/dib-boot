@@ -1,16 +1,25 @@
 
 
-.bodycopy {font-family: helvetica, arial, tahoma, verdana, sans-serif; color: gray;}
+$primary-color: #2c3024;
 
-.pageheadline {color: gray; text-align: center; padding-top: 30px; padding-bottom: 10px;}
+$secondary-color: #6d6b5a;
 
-.headlines {color: blue;}
+$tertiary-color: #d8d1bf; 
+
+@debug $secondary-color;
+
+
+.bodycopy {font-family: helvetica, arial, tahoma, verdana, sans-serif; color: $secondary-color;}
+
+.pageheadline {text-align: center; padding-top: 30px; padding-bottom: 10px;}
+
+.headlines {}
 
 .main-pnl {width: 700px; margin: 0 auto 0 auto; border-top: 3px;}
 
 .column1 {float: left;}
 
-.column2 {width: 320px; float: left; margin: 10px; margin-left: -40px; margin-top: -8px; padding: 0;}
+.column2 {width: 320px; float: left; margin: 10px; margin-left: -40px; margin-top: -8px; padding: 0; background-color: $tertiary-color;}
 
 .listtitle {text-align: left;}
 
@@ -26,8 +35,8 @@
 
 .homies dd {margin-left: 0;}
 
-.contactdeets {color: gray; text-decoration: none; padding-top: 20px;}
+.contactdeets {text-decoration: none; padding-top: 20px;}
 
-.legaleez {padding-top: 50px; padding-left: 20px; color: blue;}
+.legaleez {padding-top: 50px; padding-left: 20px;}
 
 figcaption {text-align: center; font-family: cursive;}
