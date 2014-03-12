@@ -1,12 +1,39 @@
+$color-black: #1f242a;
+$color-white: #d5e9e5;
+
+$primary-color: #c8c22c;
+$secondary-color: #bd4159;
+$tertiary-color: #679a4f;
+// calculate colors using adjust-color sass function
+
+$secondary-color: adjust-color($primary-color, $hue: 290.69479, $saturation: -15.11553, $lightness: 1.96078);
+$tertiary-color: adjust-color($primary-color, $hue: 43.10769, $saturation: -31.74559, $lightness: -2.15687);
+$color-black: adjust-color($primary-color, $hue: 155.03496, $saturation: -48.86591, $lightness: -33.52941);
+$color-white: adjust-color($primary-color, $hue: 110.30769, $saturation: -32.68443, $lightness: 39.60784);
+
+
+
+@debug hue($primary-color);
+@debug saturation($primary-color);
+@debug lightness($primary-color);
+
+@debug hue($tertiary-color);
+@debug saturation($tertiary-color);
+@debug lightness($tertiary-color);
+
 body{
   font-family: "Comic Sans MS", cursive, sans-serif;
-  color: pink;
-  background-color: black;
+  color: $primary-color;
+  background-color: $color-black;
 }
 a{
-  color: white;
+  color: $color-white;
 }
 h1{
+  color: $secondary-color;
   font-size: 3em;
   font-weight: normal;
+}
+h2, h3{
+  color: $tertiary-color;
 }
