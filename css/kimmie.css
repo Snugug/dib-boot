@@ -1,20 +1,20 @@
-/* line 32, ../sass/kimmie.scss */
+/* line 35, ../sass/kimmie.scss */
 body {
-  background-color: #fdfbf1;
-  color: #666666;
+  background-color: #fbe16a;
+  color: #243443;
   font: 13px "Raleway", "Helvetica", sans-serif;
   width: 80%;
   margin: auto;
 }
 
-/* line 39, ../sass/kimmie.scss */
+/* line 42, ../sass/kimmie.scss */
 #container {
-  background: white;
+  background: #fbfaf3;
   padding: 40px;
   box-shadow: 1px 1px 5px #ccc;
 }
 
-/* line 44, ../sass/kimmie.scss */
+/* line 47, ../sass/kimmie.scss */
 figure {
   float: left;
   width: 30%;
@@ -24,63 +24,63 @@ figure {
   background: #f1f1f1;
 }
 
-/* line 52, ../sass/kimmie.scss */
+/* line 55, ../sass/kimmie.scss */
 figcaption {
   font-size: 80%;
   padding: 5px 0;
 }
 
-/* line 56, ../sass/kimmie.scss */
+/* line 59, ../sass/kimmie.scss */
 figure img {
   width: 100%;
 }
 
-/* line 59, ../sass/kimmie.scss */
+/* line 62, ../sass/kimmie.scss */
 article {
   padding-bottom: 40px;
 }
 
-/* line 62, ../sass/kimmie.scss */
+/* line 65, ../sass/kimmie.scss */
 footer {
   text-align: center;
   margin: 20px;
 }
 
-/* line 68, ../sass/kimmie.scss */
+/* line 71, ../sass/kimmie.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Josefin Slab", "Georgia", serif;
   font-weight: 700;
-  color: #65dbce;
+  color: #6086ab;
   line-height: 0;
 }
 
-/* line 74, ../sass/kimmie.scss */
+/* line 77, ../sass/kimmie.scss */
 h1#logo {
   font-weight: 700;
   padding: 20px 0 10px 0;
   font-size: 3em;
 }
 
-/* line 79, ../sass/kimmie.scss */
+/* line 82, ../sass/kimmie.scss */
 main h2 {
-  color: #f15616;
+  color: #e9ae26;
 }
 
-/* line 82, ../sass/kimmie.scss */
+/* line 85, ../sass/kimmie.scss */
 h2.subtitle {
-  color: #666666;
+  color: #e9ae26;
   font-weight: 100;
   padding-bottom: 15px;
 }
 
-/* line 87, ../sass/kimmie.scss */
+/* line 90, ../sass/kimmie.scss */
 p {
   padding-bottom: 10px;
   line-height: 1.5;
   letter-spacing: 1px;
 }
 
-/* line 92, ../sass/kimmie.scss */
+/* line 95, ../sass/kimmie.scss */
 blockquote {
   font-size: 2em;
   padding: 0 0 20px 0;
@@ -88,7 +88,7 @@ blockquote {
   font-style: italic;
 }
 
-/* line 99, ../sass/kimmie.scss */
+/* line 102, ../sass/kimmie.scss */
 #avatar {
   width: 200px;
   height: auto;
@@ -96,7 +96,7 @@ blockquote {
   margin: 0 20px 20px 0;
 }
 
-/* line 105, ../sass/kimmie.scss */
+/* line 108, ../sass/kimmie.scss */
 img.scaled {
   width: 100%;
   margin-left: auto;

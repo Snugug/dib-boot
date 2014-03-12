@@ -1,8 +1,11 @@
 //Colors
-$primarycolor: #65dbce;
-$secondarycolor: #f15616;
-$tertiarycolor:#fdfbf1;
-$bodycolor:#666;
+$primarycolor: #6086ab;
+$secondarycolor:#e9ae26;
+//$secondarycolor: adjust-color($primarycolor, $hue:209.6-41.84615,$saturation:30.8642-81.58996,$lightness:52.35294-53.13725);
+$tertiarycolor:#fbe16a;
+$blackcolor:#243443;
+$whitecolor:#fbfaf3;
+$bodycolor:$blackcolor;
 
 // Font weights
 $light: 100;
@@ -37,7 +40,7 @@ body{
   margin:auto;
 }
 #container{
-  background:white;
+  background:$whitecolor;
   padding:40px;
   box-shadow: 1px 1px 5px #ccc;
 }
@@ -80,7 +83,7 @@ main h2{
   color:$secondarycolor;
 }
 h2.subtitle{
-  color:$bodycolor;
+  color:$secondarycolor;
   font-weight:$light;
   padding-bottom:15px;
 }
