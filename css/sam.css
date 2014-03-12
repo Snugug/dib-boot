@@ -1,0 +1,80 @@
+/* line 50, ../sass/sam.scss */
+body {
+  background: #dfe3e4;
+  color: #13171a;
+  font-size: 115%;
+  line-height: 1.618em;
+}
+
+/* line 57, ../sass/sam.scss */
+h1,
+h2 {
+  border-bottom: 1px solid #cfd7d9;
+}
+
+/* line 62, ../sass/sam.scss */
+h1 {
+  color: #476f7b;
+}
+@media (max-width: 596px) {
+  /* line 62, ../sass/sam.scss */
+  h1 {
+    border-bottom: none;
+  }
+}
+
+/* line 70, ../sass/sam.scss */
+h2 {
+  color: #dc505f;
+}
+
+/* line 77, ../sass/sam.scss */
+h1 {
+  font-size: 1.75em;
+  line-height: 1em;
+}
+
+/* line 77, ../sass/sam.scss */
+h2 {
+  font-size: 1.5em;
+  line-height: 1em;
+}
+
+/* line 77, ../sass/sam.scss */
+h3 {
+  font-size: 1.25em;
+  line-height: 1em;
+}
+
+/* line 77, ../sass/sam.scss */
+h4 {
+  font-size: 1em;
+  line-height: 1em;
+}
+
+/* line 77, ../sass/sam.scss */
+h5 {
+  font-size: 0.75em;
+  line-height: 1em;
+}
+
+/* line 77, ../sass/sam.scss */
+h6 {
+  font-size: 0.5em;
+  line-height: 1em;
+}
+
+/* line 83, ../sass/sam.scss */
+a {
+  color: #ada423;
+}
+/* line 86, ../sass/sam.scss */
+a:hover {
+  color: #8e8721;
+}
+
+/* line 91, ../sass/sam.scss */
+main {
+  max-width: 596px;
+  margin: 0 auto;
+}

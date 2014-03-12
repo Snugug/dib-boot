@@ -1,0 +1,94 @@
+//////////////////////////////
+// Bonus! Color functions!
+//////////////////////////////
+@function color--secondary($color: $color--primary) {
+  @return adjust-color($color, $hue: -137.75919, $saturation: 39.54203, $lightness: 2.74509);
+}
+
+@function color--tertiary($color: $color--primary) {
+  @return adjust-color($color, $hue: 159.72528, $saturation: 39.86255, $lightness: 20.78431);
+}
+
+@function color--black($color: $color--primary) {
+  @return adjust-color($color, $hue: 11.86814, $saturation: -11.24856, $lightness: -29.21569);
+}
+
+@function color--white($color: $color--primary) {
+  @return adjust-color($color, $hue: -1.84615, $saturation: -18.32954, $lightness: 50.39215);
+}
+
+//////////////////////////////
+// Color Definitions
+//////////////////////////////
+$color--primary: #476f7b;
+// $secondary-color: #ada423;
+$color--secondary: color--secondary();
+// $tertiary-color: #dc505f;
+$color--tertiary: color--tertiary();
+// $black: #13171a;
+$color--black: color--black();
+// $white: #dfe3e4;
+$color--white: color--white();
+
+//////////////////////////////
+// Font Definitions
+//////////////////////////////
+$font--base-size: 115%;
+$font--base-line-height: 1.618em;
+$font--header-line-height: 1em;
+$font--max-size: 2em;
+
+//////////////////////////////
+//
+//////////////////////////////
+$container--max-width: 596px;
+$border--thin: 1px solid mix($color--white, $color--primary, 90%);
+
+//////////////////////////////
+// Styling
+//////////////////////////////
+body {
+  background: $color--white;
+  color: $color--black;
+  font-size: $font--base-size;
+  line-height: $font--base-line-height;
+}
+
+h1,
+h2 {
+  border-bottom: $border--thin;
+}
+
+h1 {
+  color: $color--primary;
+
+  @media (max-width: #{$container--max-width}) {
+    border-bottom: none;
+  }
+}
+
+h2 {
+  color: $color--tertiary;
+}
+
+
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-size: $font--max-size - (.25em * $i);
+    line-height: $font--header-line-height;
+  }
+}
+
+a {
+  color: $color--secondary;
+
+  &:hover {
+    color: mix($color--black, $color--secondary, 20%);
+  }
+}
+
+main {
+  max-width: $container--max-width;
+  margin: 0 auto;
+}
