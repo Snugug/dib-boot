@@ -1,0 +1,34 @@
+body {
+  background-color: #004E73;
+  color: #6DD0FF;
+  font: 12px "Verdana", "Helvetica", sans-serif;
+  width: 80%;
+  margin: auto;
+}
+
+h1, h2 {
+  color: #FFBD6D;
+ }
+
+//$pinguino-color: #cf39ea;
+//$complement-color: adjust_hue($pinguino-color, 180);
+
+//a:link    { $complement-color}
+
+a:link    { color: #FFBD6D;}
+a:visited { color: #B27429;}
+a:hover   { text-shadow: 0 0 2px #999;}
+a:active  { padding-top: 2px;}
+
+figure {
+  float: right;
+}
+
+img {
+ width: 80%;
+  height: 80%;
+  padding:1px;
+  border:1px solid #6DD0FF;
+}
+
+

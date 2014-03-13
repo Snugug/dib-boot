@@ -1,16 +1,37 @@
 
 
+<<<<<<< HEAD
 .bodycopy {font-family: helvetica, arial, tahoma, verdana, sans-serif; color: gray;}
 
 .pageheadline {color: gray; text-align: center; padding-top: 30px; padding-bottom: 10px;}
 
 .headlines {color: red;}
+=======
+$primary-color: #2c3024;
+
+$secondary-color: #6d6b5a;
+
+$tertiary-color: #d8d1bf; 
+
+@debug $secondary-color;
+
+
+.bodycopy {font-family: helvetica, arial, tahoma, verdana, sans-serif; color: $secondary-color;}
+
+.pageheadline {text-align: center; padding-top: 30px; padding-bottom: 10px;}
+
+.headlines {}
+>>>>>>> 99dfa746be7d15ea7bddaaad6494f35092c0f355
 
 .main-pnl {width: 700px; margin: 0 auto 0 auto; border-top: 3px;}
 
 .column1 {float: left;}
 
+<<<<<<< HEAD
 .column2 {width: 320px; float: left; margin: 11px; margin-left: -40px; margin-top: -8px; padding: 0;}
+=======
+.column2 {width: 320px; float: left; margin: 10px; margin-left: -40px; margin-top: -8px; padding: 0; background-color: $tertiary-color;}
+>>>>>>> 99dfa746be7d15ea7bddaaad6494f35092c0f355
 
 .listtitle {text-align: left;}
 
@@ -26,8 +47,14 @@
 
 .homies dd {margin-left: 0;}
 
+<<<<<<< HEAD
 .contactdeets {color: gray; text-decoration: none; padding-top: 20px;}
 
 .legaleez {padding-top: 50px; padding-left: 20px; color: blue;}
+=======
+.contactdeets {text-decoration: none; padding-top: 20px;}
+
+.legaleez {padding-top: 50px; padding-left: 20px;}
+>>>>>>> 99dfa746be7d15ea7bddaaad6494f35092c0f355
 
 figcaption {text-align: center; font-family: cursive;}

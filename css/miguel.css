@@ -1,0 +1,35 @@
+/* line 1, ../sass/miguel.scss */
+body {
+  background: #eaeaea;
+  color: #5c5c5c;
+  font: 15px arial,sans-serif;
+  margin: 50px;
+}
+
+/* line 12, ../sass/miguel.scss */
+h1 {
+  color: #4f1971;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* line 19, ../sass/miguel.scss */
+h2 {
+  color: #4f1971;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* line 26, ../sass/miguel.scss */
+a:link {
+  color: #5c5c5c;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* line 32, ../sass/miguel.scss */
+a:hover {
+  color: #4f1971;
+  font-style: bold;
+  text-decoration: underline;
+}

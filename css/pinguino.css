@@ -1,0 +1,46 @@
+/* line 1, ../sass/pinguino.scss */
+body {
+  background-color: #004E73;
+  color: #6DD0FF;
+  font: 12px "Verdana", "Helvetica", sans-serif;
+  width: 80%;
+  margin: auto;
+}
+
+/* line 9, ../sass/pinguino.scss */
+h1, h2 {
+  color: #FFBD6D;
+}
+
+/* line 18, ../sass/pinguino.scss */
+a:link {
+  color: #FFBD6D;
+}
+
+/* line 19, ../sass/pinguino.scss */
+a:visited {
+  color: #B27429;
+}
+
+/* line 20, ../sass/pinguino.scss */
+a:hover {
+  text-shadow: 0 0 2px #999;
+}
+
+/* line 21, ../sass/pinguino.scss */
+a:active {
+  padding-top: 2px;
+}
+
+/* line 23, ../sass/pinguino.scss */
+figure {
+  float: right;
+}
+
+/* line 27, ../sass/pinguino.scss */
+img {
+  width: 80%;
+  height: 80%;
+  padding: 1px;
+  border: 1px solid #6DD0FF;
+}

@@ -1,0 +1,92 @@
+/* line 12, ../sass/dan.scss */
+.bodycopy {
+  font-family: helvetica, arial, tahoma, verdana, sans-serif;
+  color: #6d6b5a;
+}
+
+/* line 14, ../sass/dan.scss */
+.pageheadline {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+/* line 18, ../sass/dan.scss */
+.main-pnl {
+  width: 700px;
+  margin: 0 auto 0 auto;
+  border-top: 3px;
+}
+
+/* line 20, ../sass/dan.scss */
+.column1 {
+  float: left;
+}
+
+/* line 22, ../sass/dan.scss */
+.column2 {
+  width: 320px;
+  float: left;
+  margin: 10px;
+  margin-left: -40px;
+  margin-top: -8px;
+  padding: 0;
+  background-color: #d8d1bf;
+}
+
+/* line 24, ../sass/dan.scss */
+.listtitle {
+  text-align: left;
+}
+
+/* line 26, ../sass/dan.scss */
+.lowercontent {
+  width: 630px;
+  margin: 0 auto 0 auto;
+  clear: both;
+}
+
+/* line 28, ../sass/dan.scss */
+.looting {
+  padding-top: 30px;
+}
+
+/* line 30, ../sass/dan.scss */
+.subprime {
+  padding-top: 30px;
+}
+
+/* line 32, ../sass/dan.scss */
+.crew {
+  padding-top: 30px;
+}
+
+/* line 34, ../sass/dan.scss */
+.homies dt {
+  font-size: 1.3em;
+  font-weight: bolder;
+  padding-top: 20px;
+}
+
+/* line 36, ../sass/dan.scss */
+.homies dd {
+  margin-left: 0;
+}
+
+/* line 38, ../sass/dan.scss */
+.contactdeets {
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+/* line 40, ../sass/dan.scss */
+.legaleez {
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+/* line 42, ../sass/dan.scss */
+figcaption {
+  text-align: center;
+  font-family: cursive;
+}
