@@ -1,23 +1,32 @@
-/* line 24, ../sass/scott.scss */
+/*
+ Color Definitions
+*/
+/*
+ Font Definitions
+*/
+/* line 45, ../sass/scott.scss */
 body {
   font-family: "Comic Sans MS", cursive, sans-serif;
-  color: #c8c22c;
-  background-color: #1f242a;
-}
-
-/* line 29, ../sass/scott.scss */
-a {
   color: #d5e9e5;
+  background-color: #1f242a;
+  font-size: 110%;
+  line-height: 1.5em;
 }
 
-/* line 32, ../sass/scott.scss */
+/* line 52, ../sass/scott.scss */
+a {
+  color: #c8c22c;
+}
+
+/* line 55, ../sass/scott.scss */
 h1 {
   color: #bd4159;
   font-size: 3em;
   font-weight: normal;
+  line-height: 1em;
 }
 
-/* line 37, ../sass/scott.scss */
+/* line 61, ../sass/scott.scss */
 h2, h3 {
   color: #679a4f;
 }
