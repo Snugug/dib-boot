@@ -1,12 +1,63 @@
+
+$color--primary: #c8c22c;
+
+
+// @debug hue($color--white) - hue($color--primary);
+// @debug saturation($color--white) - saturation($color--primary);
+// @debug lightness($color--white) - lightness($color--primary);
+
+// calculate colors using adjust-color sass function
+// Secondary original: #bd4159
+@function color-secondary($color: $color--primary){
+  @return(adjust-color($color, $hue: 290.69479, $saturation: -15.11553, $lightness: 1.96078));
+}
+// Tertiary original: #679a4f
+@function color-tertiary($color: $color--primary){
+  @return(adjust-color($color, $hue: 43.10769, $saturation: -31.74559, $lightness: -2.15687));
+}
+// Black original: #1f242a
+@function color-black($color: $color--primary){
+  @return(adjust-color($color, $hue: 155.03496, $saturation: -48.86591, $lightness: -33.52941));
+}
+// White original: #d5e9e5
+@function color-white($color: $color--primary){
+  @return(adjust-color($color, $hue: 110.30769, $saturation: -32.68443, $lightness: 39.60784));
+}
+
+
+/*
+ Color Definitions
+*/
+$color--secondary: color-secondary();
+$color--tertiary: color-tertiary();
+$color--black: color-black();
+$color--white: color-white();
+
+
+
+/*
+ Font Definitions
+*/
+$font--base-size: 110%;
+$font--base-line-height: 1.5em;
+$font--header-line-height: 1em;
+
 body{
   font-family: "Comic Sans MS", cursive, sans-serif;
-  color: pink;
-  background-color: black;
+  color: $color--white;
+  background-color: $color--black;
+  font-size: $font--base-size;
+  line-height: $font--base-line-height;
 }
 a{
-  color: white;
+  color: $color--primary;
 }
 h1{
+  color: $color--secondary;
   font-size: 3em;
   font-weight: normal;
+  line-height: $font--header-line-height;
+}
+h2, h3{
+  color: $color--tertiary;
 }
