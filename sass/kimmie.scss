@@ -1,11 +1,35 @@
-//Colors
-$primarycolor: #6086ab;
-$secondarycolor:#e9ae26;
-//$secondarycolor: adjust-color($primarycolor, $hue:209.6-41.84615,$saturation:30.8642-81.58996,$lightness:52.35294-53.13725);
-$tertiarycolor:#fbe16a;
+$primarycolor: #009899;
+
+@function secondarycolor($color:$primarycolor) {
+  @return adjust-color($color,$hue:156.53092,$saturation:-43.47826,$lightness:1.56863);
+}
+
+$secondarycolor: secondarycolor($primarycolor);
+
+@function secondarycontrastcolor($color:$secondarycolor) {
+  @return adjust-color($color,$hue:0,$saturation:30,$lightness:53);
+}
+$tertiarycolor: secondarycontrastcolor($secondarycolor);
+
 $blackcolor:#243443;
 $whitecolor:#fbfaf3;
 $bodycolor:$blackcolor;
+
+//180.39216
+//@debug hue($primarycolor);
+////100
+//@debug saturation($primarycolor);
+////30
+//@debug lightness($primarycolor);
+
+////336.92308-180.39216= 156.53092
+//@debug hue($secondarycolor);
+////56.52174-100= -43.47826
+//@debug saturation($secondarycolor);
+////31.56863-30=1.56863
+//@debug lightness($secondarycolor);
+
+
 
 // Font weights
 $light: 100;
