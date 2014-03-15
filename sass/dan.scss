@@ -1,0 +1,80 @@
+
+
+// Orignial Hex Values:
+
+// $primary-color: #383c2e;
+
+// $secondary-color: #ebe9d4;
+
+// $tertiary-color: #d0cfbc;
+
+// $black-color: #1d241c;
+
+// $white-color: #f9f9f9;
+
+// $color:
+
+$primary-color: #383c2e;
+
+$secondary-color: adjust-color($primary-color, $hue: -37.142, $saturation: -1.108, $lightness: 20.9804);
+
+$tertiary-color: adjust-color($primary-color, $hue: -20.14286, $saturation: 4.33631, $lightness: 66.86275);
+
+$black-color: adjust-color($primary-color, $hue: 35.35714, $saturation: .70755, $lightness: -8.23529);
+
+$white-color: adjust-color($primary-color, $hue: -77.14286, $saturation: -13.20755, $lightness: 76.86275);
+
+
+// //  77.14286
+// @debug hue($primary-color);
+// //  13.20755
+// @debug saturation($primary-color);
+// //  20.78431
+// @debug lightness($primary-color);
+
+// // 0
+// @debug hue($white-color);
+// // 0
+// @debug saturation($white-color);
+// // 97.64706
+// @debug lightness($white-color);
+
+
+
+body  {background-color: $white-color;}
+
+.bodycopy {font-family: helvetica, arial, tahoma, verdana, sans-serif; color: $secondary-color;}
+
+.pageheadline {text-align: center; padding-top: 30px; padding-bottom: 10px; color: $primary-color;}
+
+.headlines {color: $primary-color;}
+
+.main-pnl {width: 700px; margin: 0 auto 0 auto; border-top: 3px;}
+
+.column1 {float: left;}
+
+.column2 {width: 290px; height: 480px; float: left; margin: 10px; margin-left: -40px; margin-top: 16px; padding: 0; background-color: $tertiary-color;}
+
+.facts {color: $primary-color;}
+
+.listtitle {text-align: left; padding-top: 20px; color: $primary-color;}
+
+.lowercontent {width: 630px; margin: 0 auto 0 auto; clear: both;}
+
+.looting {padding-top: 30px;}
+
+.linkstyle {padding-left: 10px; text-decoration: none; font-weight: bolder; color: red; font-size: 1em;}
+
+.subprime {padding-top: 30px;}
+
+.crew {padding-top: 30px;}
+
+.homies dt {font-size: 1.0em; color: $primary-color; margin-left: 40px; font-weight: bolder; padding-top: 20px;}
+
+.homies dd {margin-left: 40px;}
+
+.contactdeets {text-decoration: none; padding-top: 20px;}
+
+.legaleez {padding-top: 50px; padding-left: 20px;}
+
+figcaption {text-align: center; font-family: cursive; color: $primary-color;}
