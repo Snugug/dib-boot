@@ -1,92 +1,123 @@
-/* line 12, ../sass/dan.scss */
-.bodycopy {
-  font-family: helvetica, arial, tahoma, verdana, sans-serif;
-  color: #6d6b5a;
+/* line 44, ../sass/dan.scss */
+body {
+  background-color: #f9f9f9;
 }
 
-/* line 14, ../sass/dan.scss */
+/* line 46, ../sass/dan.scss */
+.bodycopy {
+  font-family: helvetica, arial, tahoma, verdana, sans-serif;
+  color: #776f5e;
+}
+
+/* line 48, ../sass/dan.scss */
 .pageheadline {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 10px;
+  color: #383c2e;
 }
 
-/* line 18, ../sass/dan.scss */
+/* line 50, ../sass/dan.scss */
+.headlines {
+  color: #383c2e;
+}
+
+/* line 52, ../sass/dan.scss */
 .main-pnl {
   width: 700px;
   margin: 0 auto 0 auto;
   border-top: 3px;
 }
 
-/* line 20, ../sass/dan.scss */
+/* line 54, ../sass/dan.scss */
 .column1 {
   float: left;
 }
 
-/* line 22, ../sass/dan.scss */
+/* line 56, ../sass/dan.scss */
 .column2 {
-  width: 320px;
+  width: 290px;
+  height: 480px;
   float: left;
   margin: 10px;
   margin-left: -40px;
-  margin-top: -8px;
+  margin-top: 16px;
   padding: 0;
-  background-color: #d8d1bf;
+  background-color: #e5e4da;
 }
 
-/* line 24, ../sass/dan.scss */
+/* line 58, ../sass/dan.scss */
+.facts {
+  color: #383c2e;
+}
+
+/* line 60, ../sass/dan.scss */
 .listtitle {
   text-align: left;
+  padding-top: 20px;
+  color: #383c2e;
 }
 
-/* line 26, ../sass/dan.scss */
+/* line 62, ../sass/dan.scss */
 .lowercontent {
   width: 630px;
   margin: 0 auto 0 auto;
   clear: both;
 }
 
-/* line 28, ../sass/dan.scss */
+/* line 64, ../sass/dan.scss */
 .looting {
   padding-top: 30px;
 }
 
-/* line 30, ../sass/dan.scss */
+/* line 66, ../sass/dan.scss */
+.linkstyle {
+  padding-left: 10px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: red;
+  font-size: 1em;
+}
+
+/* line 68, ../sass/dan.scss */
 .subprime {
   padding-top: 30px;
 }
 
-/* line 32, ../sass/dan.scss */
+/* line 70, ../sass/dan.scss */
 .crew {
   padding-top: 30px;
 }
 
-/* line 34, ../sass/dan.scss */
+/* line 72, ../sass/dan.scss */
 .homies dt {
-  font-size: 1.3em;
+  font-size: 1.0em;
+  color: #383c2e;
+  margin-left: 40px;
   font-weight: bolder;
   padding-top: 20px;
 }
 
-/* line 36, ../sass/dan.scss */
+/* line 74, ../sass/dan.scss */
 .homies dd {
-  margin-left: 0;
+  margin-left: 40px;
 }
 
-/* line 38, ../sass/dan.scss */
+/* line 76, ../sass/dan.scss */
 .contactdeets {
   text-decoration: none;
   padding-top: 20px;
 }
 
-/* line 40, ../sass/dan.scss */
+/* line 78, ../sass/dan.scss */
 .legaleez {
   padding-top: 50px;
   padding-left: 20px;
 }
 
-/* line 42, ../sass/dan.scss */
+/* line 80, ../sass/dan.scss */
 figcaption {
   text-align: center;
   font-family: cursive;
+  color: #383c2e;
 }
