@@ -1,94 +1,96 @@
-/* line 32, ../sass/kimmie.scss */
+/* line 60, ../sass/kimmie.scss */
 body {
-  background-color: #fdfbf1;
-  color: #666666;
-  font: 13px "Raleway", "Helvetica", sans-serif;
+  background-color: #fefece;
+  color: #005b5c;
+  font: 0.85em "Raleway", "Helvetica", sans-serif;
   width: 80%;
   margin: auto;
 }
 
-/* line 39, ../sass/kimmie.scss */
+/* line 67, ../sass/kimmie.scss */
 #container {
-  background: white;
+  background: #fffff6;
   padding: 40px;
   box-shadow: 1px 1px 5px #ccc;
+  border-radius: 1em;
 }
 
-/* line 44, ../sass/kimmie.scss */
+/* line 73, ../sass/kimmie.scss */
 figure {
   float: left;
   width: 30%;
   border: thin silver solid;
   margin: .5em;
   padding: 0.5em;
-  background: #f1f1f1;
+  background: #e5eee6;
 }
 
-/* line 52, ../sass/kimmie.scss */
+/* line 81, ../sass/kimmie.scss */
 figcaption {
   font-size: 80%;
   padding: 5px 0;
 }
 
-/* line 56, ../sass/kimmie.scss */
+/* line 85, ../sass/kimmie.scss */
 figure img {
   width: 100%;
 }
 
-/* line 59, ../sass/kimmie.scss */
+/* line 88, ../sass/kimmie.scss */
 article {
   padding-bottom: 40px;
 }
 
-/* line 62, ../sass/kimmie.scss */
+/* line 91, ../sass/kimmie.scss */
 footer {
   text-align: center;
   margin: 20px;
 }
 
-/* line 68, ../sass/kimmie.scss */
+/* line 97, ../sass/kimmie.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Josefin Slab", "Georgia", serif;
   font-weight: 700;
-  color: #65dbce;
+  color: #01999a;
   line-height: 0;
 }
 
-/* line 74, ../sass/kimmie.scss */
+/* line 103, ../sass/kimmie.scss */
 h1#logo {
   font-weight: 700;
   padding: 20px 0 10px 0;
   font-size: 3em;
 }
 
-/* line 79, ../sass/kimmie.scss */
-main h2 {
-  color: #f15616;
-}
-
-/* line 82, ../sass/kimmie.scss */
+/* line 109, ../sass/kimmie.scss */
 h2.subtitle {
-  color: #666666;
+  color: #cc9594;
   font-weight: 100;
   padding-bottom: 15px;
 }
 
-/* line 87, ../sass/kimmie.scss */
-p {
-  padding-bottom: 10px;
-  line-height: 1.5;
-  letter-spacing: 1px;
+/* line 114, ../sass/kimmie.scss */
+h3 {
+  color: #cc9594;
 }
 
-/* line 92, ../sass/kimmie.scss */
+/* line 117, ../sass/kimmie.scss */
+p {
+  padding-bottom: 10px;
+  line-height: 1.5em;
+  letter-spacing: 0.05em;
+}
+
+/* line 122, ../sass/kimmie.scss */
 blockquote {
   font-size: 2em;
   padding: 0 0 20px 0;
   font-family: "Josefin Slab", "Georgia", serif;
   font-style: italic;
+  color: #80ccc8;
 }
 
-/* line 99, ../sass/kimmie.scss */
+/* line 130, ../sass/kimmie.scss */
 #avatar {
   width: 200px;
   height: auto;
@@ -96,10 +98,26 @@ blockquote {
   margin: 0 20px 20px 0;
 }
 
-/* line 105, ../sass/kimmie.scss */
+/* line 136, ../sass/kimmie.scss */
 img.scaled {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+/* line 143, ../sass/kimmie.scss */
+a {
+  color: #cc9594;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* line 147, ../sass/kimmie.scss */
+a:visited {
+  color: #11b4b7;
+}
+/* line 150, ../sass/kimmie.scss */
+a:hover {
+  color: #fffff6;
+  background: #11b4b7;
 }
