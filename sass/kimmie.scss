@@ -1,34 +1,35 @@
-$primarycolor: #009899;
+//Darkblue
+$primarycolor: #01999a;
 
-@function secondarycolor($color:$primarycolor) {
-  @return adjust-color($color,$hue:156.53092,$saturation:-43.47826,$lightness:1.56863);
+//Aqua
+@function secondarycolor($color) {
+  @return adjust-color($color,$hue:.97468,$saturation:-15.29588,$lightness:8.82353);
 }
-
 $secondarycolor: secondarycolor($primarycolor);
 
-@function secondarycontrastcolor($color:$secondarycolor) {
-  @return adjust-color($color,$hue:0,$saturation:30,$lightness:53);
+//Mauve
+@function tertiarycolor($color) {
+  @return adjust-color($color,$hue:180.39216-0,$saturation:35.44304-98.70968,$lightness:69.01961-30.39216);
 }
-$tertiarycolor: secondarycontrastcolor($secondarycolor);
+$tertiarycolor: tertiarycolor($primarycolor);
 
-$blackcolor:#243443;
-$whitecolor:#fbfaf3;
+//Yellowish
+@function quaternarycolor($color) {
+  @return adjust-color($color,$hue:-120.39216,$saturation:-1.29032,$lightness:59.80392);
+}
+$quaternarycolor: quaternarycolor($primarycolor);
+
+$blackcolor:mix(black,$primarycolor,40%);
+$whitecolor:adjust-lightness($quaternarycolor,8%);
+
 $bodycolor:$blackcolor;
 
-//180.39216
+////180.39216
 //@debug hue($primarycolor);
-////100
+////98.70968
 //@debug saturation($primarycolor);
-////30
+////30.39216
 //@debug lightness($primarycolor);
-
-////336.92308-180.39216= 156.53092
-//@debug hue($secondarycolor);
-////56.52174-100= -43.47826
-//@debug saturation($secondarycolor);
-////31.56863-30=1.56863
-//@debug lightness($secondarycolor);
-
 
 
 // Font weights
@@ -39,9 +40,9 @@ $bold: 700;
 // Base Font
 $base-font-family: 'Raleway','Helvetica',sans-serif;
 $base-font-weight: $regular;
-$base-font-space: 1px;
-$base-font-size: 13px;
-$base-line-height: 1.5;
+$base-font-space: .05em;
+$base-font-size: .85em;
+$base-line-height: 1.5em;
 
 // Headings
 $header-font-weight: $bold;
@@ -57,7 +58,7 @@ $fancy-line-height: $base-line-height;
 
 //structure
 body{
-  background-color: $tertiarycolor;
+  background-color: $quaternarycolor;
   color: $bodycolor;
   font: $base-font-size $base-font-family;
   width:80%;
@@ -67,6 +68,7 @@ body{
   background:$whitecolor;
   padding:40px;
   box-shadow: 1px 1px 5px #ccc;
+  border-radius:1em;
 }
 figure{
   float: left;
@@ -103,13 +105,14 @@ h1#logo{
   padding:20px 0 10px 0;
   font-size:3em;
 }
-main h2{
-  color:$secondarycolor;
-}
+
 h2.subtitle{
-  color:$secondarycolor;
+  color:$tertiarycolor;
   font-weight:$light;
   padding-bottom:15px;
+}
+h3{
+  color:$tertiarycolor;
 }
 p{
   padding-bottom:10px;
@@ -121,6 +124,7 @@ blockquote{
   padding:0 0 20px 0;
   font-family:$fancy-font-family;
   font-style:$fancy-font-style;
+  color:mix($whitecolor,$primarycolor,50%)
 }
 //images
 #avatar {
@@ -136,3 +140,7 @@ img.scaled{
   display:block;
 }
 //links
+a{
+  color:$tertiarycolor;
+  font-weight:bold;
+}
