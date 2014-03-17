@@ -76,7 +76,7 @@ figure{
   border: thin silver solid;
   margin: .5em;
   padding: 0.5em;
-  background: #f1f1f1;
+  background: mix($blackcolor,$whitecolor,10%);
 }
 figcaption{
   font-size:80%;
@@ -143,4 +143,11 @@ img.scaled{
 a{
   color:$tertiarycolor;
   font-weight:bold;
+  text-decoration:none;
+  &:visited{
+    color:$secondarycolor;
+    }
+  &:hover{
+    color:$whitecolor;
+    background:$secondarycolor;}
 }
