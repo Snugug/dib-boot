@@ -22,7 +22,7 @@ figure {
   border: thin silver solid;
   margin: .5em;
   padding: 0.5em;
-  background: #f1f1f1;
+  background: #e5eee6;
 }
 
 /* line 81, ../sass/kimmie.scss */
@@ -110,4 +110,14 @@ img.scaled {
 a {
   color: #cc9594;
   font-weight: bold;
+  text-decoration: none;
+}
+/* line 147, ../sass/kimmie.scss */
+a:visited {
+  color: #11b4b7;
+}
+/* line 150, ../sass/kimmie.scss */
+a:hover {
+  color: #fffff6;
+  background: #11b4b7;
 }
