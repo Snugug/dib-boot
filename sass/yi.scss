@@ -1,27 +1,177 @@
+@function color-secondary($color: $color--primary) {
+  @return adjust-color($color, $hue:-183.76057, $saturation:-23.28042, $lightness:-31.76471);
+}
+
+@function color-tertiary($color: $color--primary) {
+  @return adjust-color($color, $hue:-323.8923, $saturation:-11, $lightness: -8.03922);
+}
+//@function color-black($color: $color--primary) {
+  //@return adjust-color($color, $hue:-132.47978, $saturation: -91.66667, $lightness: -35.88235);
+//}
+//@function color-white($color: $color--primary) {
+  //@return adjust-color($color, $hue:-309.62264, $saturation: -62.5, $lightness: 28.03922);
+//}
+
+
+
+$color--primary: #ff6061;
+$color--secondary: color--secondary();
+//$color--secondary: #16a79d;
+$color--tertiary: color--tertiary();
+//$color--tertiary: #f4ac42;
+$color--black: color--black();
+//$color--black: #4d505b;
+$color--white: color--white();
+//$color--white: #faf9f4;
+
+
+//$color--primary: #ff6061;
+//$color--secondary: color--secondary();
+//$color--secondary: #16a79d;
+//$color--tertiary: adjust-color($color--primary, $hue:-323.8923, $saturation:-11, $lightness: -8.03922);
+//$color--tertiary: #f4ac42;
+$color--black: adjust-color($color--primary, $hue:-132.47978, $saturation: -91.66667, $lightness: -35.88235);
+//$color--black: #4d505b;
+$color--white: adjust-color($color--primary, $hue:-309.62264, $saturation: -62.5, $lightness: 28.03922);
+//$color--white: #faf9f4;
+
+
+//@debug hue($color--primary);
+//359.62264
+
+//@debug saturation($color--primary);
+//100
+
+//@debug lightness($color--primary);
+//68.82353
+
+
+//@debug hue($color--secondary);
+//175.86207 - 359.62264 = -183.76057
+
+//@debug saturation($color--secondary);
+//76.71958 - 100 = -23.28042
+
+//@debug lightness($color--secondary);
+//37.05882 - 68.82353 = -31.76471
+
+
+
+//@debug hue($color--tertiary);
+//35.73034 - 359.62264 = -323.8923
+
+//@debug saturation($color--tertiary);
+//89 - 100 = -11
+
+//@debug lightness($color--tertiary);
+//60.78431 - 68.82353 = -8.03922
+
+
+//@debug hue($color--black);
+//227.14286 - 359.62264 = -132.47978
+
+//@debug saturation($color--black);
+//8.33333 - 100 = -91.66667
+
+//@debug lightness($color--black);
+//32.94118 - 68.82353 = -35.88235
+
+
+//@debug hue($color--white);
+//50 - 359.62264 = -309.62264
+
+//@debug saturation($color--white);
+//37.5 - 100 = -62.5
+
+//@debug lightness($color--white);
+//96.86275 - 68.82353 = 28.03922
+
+
+
+//@debug $color--secondary;
+//@debug $color--tertiary;
+//@debug $color--black;
+//@debug $color--white;
+
+
+
+
+$border: 10px solid mix($color--black, $color--white, 90%);
+$headline: mix($color--black, $color--white, 90%);
+
+
 body{
-  background: #32425c;
-  color: #fff;
+  background: $color--black;
+  color: $color--white;
   font-family: Arial;
   text-decoration: none;
   margin-bottom: 100px;
+  border-top: $border;
+
+}
+
+header{
+  margin-bottom: 3em;
+  float: none;
 
 }
 
 h1{
- color: #ce616e;
- margin-top: 1.5em;
-
+ color: $color--white;
+ //margin-top: 1em;
+ font-size: 3em;
+ float: left;
 }
 
-h2{
-  color: #ce616e;
+main{
+ margin-top: 4em;
+ padding-top: 4em;
 }
+
+
+#hh{
+  color: $color--primary;
+  display: block;
+  border: 1px solid $color--primary;
+  padding: 1em;
+  font-size: 2em;
+  background: $headline;
+}
+
+#hmi{
+  color: $color--secondary;
+  display: block;
+  border: 1px solid $color--secondary;
+  padding: 1em;
+  font-size: 2em;
+}
+
+#hg{
+  color: $color--tertiary;
+  display: block;
+  border: 1px solid $color--tertiary;
+  padding: 1em;
+  font-size: 2em;
+}
+
+p{
+  padding-left: 3em;
+  width: 60%;
+}
+
 
 p .link{
   font-size: 19px;
   color: #6483b6;
   text-decoration: none;
+
 }
+
+article {
+  margin-bottom: 5em;
+
+}
+
 
 figure{
   margin-bottom: 60px;
@@ -36,8 +186,9 @@ img{
 }
 
 nav{
-  margin-top: 1.5em;
-  margin-bottom: 2em;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+  float: right;
 
 }
 
@@ -46,14 +197,27 @@ ul{
 }
 
 li{
-  display: block;
-  padding-bottom: 1em;
+  display: inline;
+  padding-right: 3em;
+  padding-bottom: 5em;
 }
 
 nav a{
   color: #6483b6;
   text-decoration: none;
   font-size: 25px;
+}
+
+ul.top li.history a{
+  color:$color--primary;
+}
+
+ul.top li.main a{
+  color:$color--secondary;
+}
+
+ul.top li.gallery a{
+  color:$color--tertiary;
 }
 
 
