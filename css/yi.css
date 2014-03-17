@@ -1,70 +1,135 @@
-/* line 1, ../sass/yi.scss */
+/* line 103, ../sass/yi.scss */
 body {
-  background: #32425c;
-  color: #fff;
+  background: #4d505b;
+  color: #faf9f4;
   font-family: Arial;
   text-decoration: none;
   margin-bottom: 100px;
+  border-top: 10px solid #5e606a;
 }
 
-/* line 10, ../sass/yi.scss */
+/* line 113, ../sass/yi.scss */
+header {
+  margin-bottom: 3em;
+  float: none;
+}
+
+/* line 119, ../sass/yi.scss */
 h1 {
-  color: #ce616e;
-  margin-top: 1.5em;
+  color: #faf9f4;
+  font-size: 3em;
+  float: left;
 }
 
-/* line 16, ../sass/yi.scss */
-h2 {
-  color: #ce616e;
+/* line 126, ../sass/yi.scss */
+main {
+  margin-top: 4em;
+  padding-top: 4em;
 }
 
-/* line 20, ../sass/yi.scss */
+/* line 132, ../sass/yi.scss */
+#hh {
+  color: #ff6061;
+  display: block;
+  border: 1px solid #ff6061;
+  padding: 1em;
+  font-size: 2em;
+  background: #5e606a;
+}
+
+/* line 141, ../sass/yi.scss */
+#hmi {
+  color: color--secondary();
+  display: block;
+  border: 1px solid color--secondary();
+  padding: 1em;
+  font-size: 2em;
+}
+
+/* line 149, ../sass/yi.scss */
+#hg {
+  color: color--tertiary();
+  display: block;
+  border: 1px solid color--tertiary();
+  padding: 1em;
+  font-size: 2em;
+}
+
+/* line 157, ../sass/yi.scss */
+p {
+  padding-left: 3em;
+  width: 60%;
+}
+
+/* line 163, ../sass/yi.scss */
 p .link {
   font-size: 19px;
   color: #6483b6;
   text-decoration: none;
 }
 
-/* line 26, ../sass/yi.scss */
+/* line 170, ../sass/yi.scss */
+article {
+  margin-bottom: 5em;
+}
+
+/* line 176, ../sass/yi.scss */
 figure {
   margin-bottom: 60px;
 }
 
-/* line 30, ../sass/yi.scss */
+/* line 180, ../sass/yi.scss */
 img {
   width: 50%;
 }
 
-/* line 34, ../sass/yi.scss */
+/* line 184, ../sass/yi.scss */
 #moulin {
   border: 10px solid #708090;
 }
 
-/* line 38, ../sass/yi.scss */
+/* line 188, ../sass/yi.scss */
 nav {
-  margin-top: 1.5em;
-  margin-bottom: 2em;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+  float: right;
 }
 
-/* line 44, ../sass/yi.scss */
+/* line 195, ../sass/yi.scss */
 ul {
   list-style-type: none;
 }
 
-/* line 48, ../sass/yi.scss */
+/* line 199, ../sass/yi.scss */
 li {
-  display: block;
-  padding-bottom: 1em;
+  display: inline;
+  padding-right: 3em;
+  padding-bottom: 5em;
 }
 
-/* line 53, ../sass/yi.scss */
+/* line 205, ../sass/yi.scss */
 nav a {
   color: #6483b6;
   text-decoration: none;
   font-size: 25px;
 }
 
-/* line 60, ../sass/yi.scss */
+/* line 211, ../sass/yi.scss */
+ul.top li.history a {
+  color: #ff6061;
+}
+
+/* line 215, ../sass/yi.scss */
+ul.top li.main a {
+  color: color--secondary();
+}
+
+/* line 219, ../sass/yi.scss */
+ul.top li.gallery a {
+  color: color--tertiary();
+}
+
+/* line 224, ../sass/yi.scss */
 a:hover {
   color: #fff;
 }
